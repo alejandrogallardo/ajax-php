@@ -22,7 +22,7 @@
 	}
 
 	if (validarDatos($nombre, $edad, $pais, $correo)) {
-		$conn = new mysqli( 'localhost', 'root', '#velMax.MyS84', 'curso_php_ajax' );
+		$conn = new mysqli( 'localhost', 'root', '', 'curso_php_ajax' );
 		$conn->set_charset('utf8');
 
 		if ($conn->connect_errno) {
