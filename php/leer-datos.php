@@ -5,7 +5,7 @@
 	header('Content-type: application/json; charset=utf-8');
 	
 	// require '../config/dbconfig.php';
-	$conn = new mysqli('localhost', 'root', '#velMax.MyS84', 'curso_php_ajax');
+	$conn = new mysqli('localhost', 'root', '', 'curso_php_ajax');
 	
 	// var_dump($conn);
 
